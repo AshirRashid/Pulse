@@ -1,5 +1,5 @@
 func pulse_between(start, end, line_num=2, points_num=15):
-	# lin_num: number of polylines to be drawn when this function is called
+	# line_num: number of polylines to be drawn when this function is called
 	# points_num: number of points in each line
 	var relative_end = self.to_local(end)# position of the end point relative to the canvas_item whose draw function is used to call this function
 	var relative_start = self.to_local(start)
