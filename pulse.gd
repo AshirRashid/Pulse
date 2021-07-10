@@ -13,7 +13,6 @@ func pulse_between(start, end, line_num=2, points_num=15):
 			var point_offset = (randi()%100)-50
 			var current_point = relative_start + i*dir*segment_length + point_offset*Vector2(-dir.y, dir.x)
 			points.append(current_point)
-			off += 100
 		points.append(relative_end)
 		draw_polyline(points, Color('#DDDDDD'), randi()%5 +2
 		)
