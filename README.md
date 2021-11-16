@@ -1,5 +1,5 @@
 # Pulse
-GDscript script for Godot. Generate an electric pulse affect between any two points.
+GDscript script for Godot. Generate an electric pulse effect between any two points.
 
 ### Explanation
 https://www.youtube.com/watch?v=cJfylP2r8Pk
